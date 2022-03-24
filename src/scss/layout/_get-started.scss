@@ -1,4 +1,5 @@
 @use '../utilities/variables' as var;
+@use '../base/typography' as type;
 
 .get-started {
     display: flex;
@@ -14,13 +15,31 @@
 
     .first {
         align-self: flex-start;
+
+        &::before {
+            content: '1';
+            font-size: 64px;
+            font-weight: type.$h1-wght;
+        }
     }
 
     .second {
         align-self: center;
+
+        &::before {
+            content: '2';
+            font-size: 64px;
+            font-weight: type.$h1-wght;
+        }
     }
 
     .third {
         align-self: flex-end;
+
+        &::before {
+            content: '3';
+            font-size: 64px;
+            font-weight: type.$h1-wght;
+        }
     }
 }
