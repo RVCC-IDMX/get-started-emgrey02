@@ -1,0 +1,25 @@
+@use 'typography' as type;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: type.$font;
+    line-height: type.$line-h;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-weight: type.$h1-wght;
+}
+
+h2 {
+    font-weight: type.$h2-wght;
+}
+
+nav {
+    font-weight: type.$nav-wght;
+}
+

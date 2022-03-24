@@ -1,0 +1,7 @@
+@use '../base/reset';
+@use '../base/typography' as type;
+@use '../utilities/variables' as var;
+
+body {
+    background-color: var.$bkgd-color;
+}
