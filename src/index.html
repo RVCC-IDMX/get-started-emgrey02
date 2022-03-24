@@ -5,12 +5,95 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Platform Ticket</title>
+  <title>Get Started</title>
   <link rel="stylesheet" href="scss/main.scss">
 </head>
 
 <body>
-  <h1>Parcel Starter</h1>
+  <nav class="nav">
+    <p class="nav__comp-name">E.co</p>
+
+    <ul class="nav__nav-container">
+      <li class="nav__link-container">
+        <a class="nav__link" href="#get-started">Get Started</a>
+      </li>
+      <li class="nav__link-container">
+        <a class="nav__link" href="#about">About</a>
+      </li>
+      <li class="nav__link-container">
+        <a class="nav__link" href="#contact">Contact</a>
+      </li>
+    </ul>
+
+    <input class="nav__checkbox" id="nav__checkbox" type="checkbox">
+    <label for="nav__checkbox" class="nav__toggle">
+      <div class="nav__checkbox--hamburger"></div>
+    </label>
+  </nav>
+
+  <main class="main-content">
+    <section class="get-started" id="get-started">
+
+      <h1 class="get-started__title">Get Started</h1>
+
+      <div class="card">
+        <h2 class="card__title">Pick a Template</h2>
+        <p class="card__para">Choose from a selection of over 300 templates. Perfect for Birthdays, Graduation, Anniversaries and more!</p>
+      </div>
+
+      <div class="card">
+        <h2 class="card__title">Make it your own</h2>
+        <p class="card__para">Customize your card by uploading images, videos and writing a personal message!</p>
+      </div>
+
+      <div class="card">
+        <h2 class="card__title">Share it out</h2>
+        <p class="card__para">Send your card out by email or text. You can send your card out immediately or schedule it for the perfect time and date.</p>
+      </div>
+
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__container">
+
+        <h1 class="about__container--title">About</h1>
+
+        <p class="about__container--para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut nisi pulvinar, porta nibh at, sagittis enim. Nullam libero nisl, dignissim in nulla a, posuere vehicula orci. Duis suscipit enim malesuada lectus varius tempor. Etiam sit amet erat in enim dapibus suscipit. Phasellus non porttitor ante, ac eleifend lorem.
+        </p>
+
+        <p class="about__container--para">
+          Fusce vitae felis auctor, dictum nisl sed, commodo tellus. Proin tortor mi, auctor eu iaculis ut, mollis vel odio. Sed maximus egestas arcu non semper. Quisque eu felis a mauris posuere blandit. Praesent a malesuada elit. Vestibulum id cursus nisi, vel rutrum orci.
+        </p>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact__container">
+
+        <h1 class="contact__container__title">Contact</h1>
+
+        <form class="contact-form">
+          
+          <label class="contact-form__label" for="name">Name:</label>
+          <input class="contact-form__input" type="text" id="name" required>
+
+          <label class="contact-form__label" for="email">Email Address:</label>
+          <input class="contact-form__input" type="text" id="email" required>
+
+          <label class="contact-form__label" for="message">Message:</label>
+          <input class="contact-form__input" type="textbox" id="message" required>
+
+          <button class="contact-form__submit">Submit</button>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+  
 </body>
 
 </html>
