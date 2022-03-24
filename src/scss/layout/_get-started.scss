@@ -8,14 +8,21 @@
     width: 100%;
     margin-block-start: 5rem;
 
+    @media (min-width: 1300px) {
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
     &__title {
         width: 100%;
         text-align: center;
-        margin-block: 3rem;
+        margin-block: 6rem 10rem;
     }
 
     .first {
         align-self: flex-start;
+
 
         &::before {
             content: '1';
@@ -41,6 +48,12 @@
             content: '3';
             font-size: 64px;
             font-weight: type.$h1-wght;
+        }
+    }
+
+    @media (min-width: 1300px) {
+        .first, .second, .third {
+            align-self: stretch;
         }
     }
 }

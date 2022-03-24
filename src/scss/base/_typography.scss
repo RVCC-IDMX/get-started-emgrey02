@@ -2,14 +2,15 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
 }
 
 $font: 'Montserrat', 'Open Sans', sans-serif;
 
 /* font weights */
-$h1-wght: 900;
+$h1-wght: 700;
 $h2-wght: 600;
-$nav-wght: 800;
+$nav-wght: 700;
 $p-wght: 400;
 
 $line-h: 1.5;
