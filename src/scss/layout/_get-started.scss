@@ -6,11 +6,12 @@
     flex-direction: column;
     gap: 4rem;
     width: 100%;
+    margin-block-start: 5rem;
 
     &__title {
         width: 100%;
         text-align: center;
-        margin-block: 2rem;
+        margin-block: 3rem;
     }
 
     .first {

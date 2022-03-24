@@ -6,10 +6,15 @@
 @use '../layout/about';
 @use '../layout/contact';
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var.$bkgd-color;
     height: 100%;
     font-size: clamp(14px, 2vw, 16px);
+    
 }
 
 main {
