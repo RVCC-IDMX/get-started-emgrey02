@@ -1,0 +1,17 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "description": "starter files for Parcel build with Sass",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rm -f dist/* && parcel build src/index.html"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2",
+    "sass": "^1.49.8"
+  }
+}
