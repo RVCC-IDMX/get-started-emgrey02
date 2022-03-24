@@ -1,0 +1,22 @@
+@use '../utilities/variables' as var;
+@use '../components/form';
+
+.contact {
+    margin-block: 8rem;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 890px;
+        margin-inline: auto;
+        gap: 2rem;
+        background-color: var.$card-bkgd-color;
+        box-shadow: var.$shadow;
+        padding: 4rem 2rem;
+        border-radius: 8px;
+    }
+
+    &__title {
+        text-align: center;
+    }
+}

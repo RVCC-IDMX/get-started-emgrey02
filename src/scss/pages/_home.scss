@@ -1,7 +1,18 @@
 @use '../base/reset';
 @use '../base/typography' as type;
 @use '../utilities/variables' as var;
+@use '../layout/nav';
+@use '../layout/get-started';
+@use '../layout/about';
+@use '../layout/contact';
 
 body {
     background-color: var.$bkgd-color;
+    height: 100%;
+    font-size: clamp(14px, 2vw, 16px);
 }
+
+main {
+    margin: .5rem;
+}
+

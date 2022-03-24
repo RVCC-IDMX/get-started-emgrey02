@@ -1,0 +1,30 @@
+@use '../utilities/variables' as var;
+@use '../components/card';
+
+.about {
+    margin-block-start: 8rem;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        max-width: 890px;
+        gap: 1rem;
+        background-color: var.$card-bkgd-color;
+        margin-inline: 1rem;
+        border-radius: 8px;
+        padding-inline: 2rem;
+        padding-block: 4rem;
+        text-align: center;
+        margin-inline: auto;
+        box-shadow: var.$shadow;
+
+        &--title {
+            padding-block-end: 1rem;
+        }
+
+        &--para {
+            max-width: 60ch;
+            margin-inline: auto;
+        }
+    }
+}

@@ -12,7 +12,7 @@
 <body>
   <nav class="nav">
     <p class="nav__comp-name">E.co</p>
-
+    
     <ul class="nav__nav-container">
       <li class="nav__link-container">
         <a class="nav__link" href="#get-started">Get Started</a>
@@ -25,10 +25,6 @@
       </li>
     </ul>
 
-    <input class="nav__checkbox" id="nav__checkbox" type="checkbox">
-    <label for="nav__checkbox" class="nav__toggle">
-      <div class="nav__checkbox--hamburger"></div>
-    </label>
   </nav>
 
   <main class="main-content">
@@ -36,17 +32,17 @@
 
       <h1 class="get-started__title">Get Started</h1>
 
-      <div class="card">
+      <div class="card first">
         <h2 class="card__title">Pick a Template</h2>
         <p class="card__para">Choose from a selection of over 300 templates. Perfect for Birthdays, Graduation, Anniversaries and more!</p>
       </div>
 
-      <div class="card">
+      <div class="card second">
         <h2 class="card__title">Make it your own</h2>
         <p class="card__para">Customize your card by uploading images, videos and writing a personal message!</p>
       </div>
 
-      <div class="card">
+      <div class="card third">
         <h2 class="card__title">Share it out</h2>
         <p class="card__para">Send your card out by email or text. You can send your card out immediately or schedule it for the perfect time and date.</p>
       </div>
@@ -72,7 +68,7 @@
     <section class="contact" id="contact">
       <div class="contact__container">
 
-        <h1 class="contact__container__title">Contact</h1>
+        <h1 class="contact__title">Contact</h1>
 
         <form class="contact-form">
           
@@ -83,7 +79,7 @@
           <input class="contact-form__input" type="text" id="email" required>
 
           <label class="contact-form__label" for="message">Message:</label>
-          <input class="contact-form__input" type="textbox" id="message" required>
+          <textarea class="contact-form__input" type="text" id="message" rows='6' required>Message</textarea>
 
           <button class="contact-form__submit">Submit</button>
 

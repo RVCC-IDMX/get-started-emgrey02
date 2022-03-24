@@ -1,0 +1,21 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30ch;
+    margin-inline: auto;
+
+    &__label:not(:first-child){
+        margin-top: 1rem;
+    }
+
+    &__submit {
+        margin-top: .5rem;
+    }
+
+    #message {
+        resize: vertical;
+    }
+
+
+}
