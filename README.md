@@ -1,34 +1,18 @@
-# Starter Page Builder
+# Get Started Page
 
-## How to use this repo
+![image](https://user-images.githubusercontent.com/62446436/160189254-b5d787d8-2bc7-452e-bb5d-38dc3e0b824a.png)
 
-1. Clone the repo
-1. In your terminal, run
-   ```bash
-   npm install
-   ```
-1. In your terminal, run the parcel watcher
-   ```bash
-   npm run dev
-   ```
+This web page was first designed in [Figma](https://figma.com) following [Angela's](https://www.youtube.com/channel/UC_TjoSnaI3CTgIgmSn3rruA) youtube video called [Figma Web Design Tutorial | Figma UI Design](https://www.youtube.com/watch?v=oYCesPcxpEw).
 
-### The Parcel dev script
+I recreated what Angela made in her video, with slight alterations in color and layout. In addition to a desktop version of the website, I added a tablet and mobile version. Here is a link to my [Figma Creation](https://www.figma.com/file/JS4sk1A6HBr9Y6dMiGDjCI/First-Figma-Design?node-id=0%3A1).
 
-The Parcel dev script will watch your files for changes automatically and will live update your browser.
+From there, I translated the design to code - using HTML, CSS, and JavaScript.
 
-1. In your browser, go to `http://localhost:1234/`
-1. ParcelJS will reload the page when changes are made
+Website features:
+- responsive to every screen size
+- fluid typography
+- variable font: Montserrat
+- scroll animation
+- nav link hover animation
 
-### How to stop a watcher
 
-When you want to stop the watcher, click in the terminal and press ctrl-c
-
-## When you are ready to go to production
-
-1. In your terminal, run
-
-   ```bash
-   npm run build
-   ```
-
-1. The final version of your site will be in the `dist` folder.
