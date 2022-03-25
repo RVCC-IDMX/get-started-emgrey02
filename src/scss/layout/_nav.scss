@@ -9,6 +9,10 @@
     box-shadow: var.$shadow;
     font-size: 18px;
 
+    @media (min-width: 1300px) {
+        justify-content: space-around;
+    }
+
     &__comp-name {
         color: var.$accent-color;
         margin: 0 1rem;
