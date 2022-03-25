@@ -48,7 +48,10 @@
             border-radius: 8px;
             background-color: var.$accent-color;
             transform: translateX(0);
-            transition: transform 500ms var(--ease-squish-1);
+
+            @media (prefers-reduced-motion: no-preference) {
+                transition: transform 500ms var(--ease-squish-1);
+            }
         }
     }
 
