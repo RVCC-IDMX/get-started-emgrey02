@@ -16,7 +16,12 @@
         margin-inline: auto;
         box-shadow: var.$shadow;
         position: relative;
-        
+        opacity: 0;
+
+        @media (prefers-reduced-motion: no-preference) {
+            transition: opacity .5s ease;
+        }
+
         &--title {
             padding-block-end: 1rem;
 
@@ -32,10 +37,11 @@
                 border-top-right-radius: 8px;
             }
         }
-
+        
         &--para {
             max-width: 60ch;
             margin-inline: auto;
         }
     }
 }
+

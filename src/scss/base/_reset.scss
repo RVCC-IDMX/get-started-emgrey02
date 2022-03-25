@@ -1,5 +1,6 @@
 @use 'typography' as type;
 @use '../utilities/variables' as var;
+@import '../../node_modules/open-props/easings.min.css';
 
 *, *::before, *::after {
     box-sizing: border-box;

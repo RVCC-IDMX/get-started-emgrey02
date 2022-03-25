@@ -15,6 +15,11 @@
         padding: 4rem 1rem;
         border-radius: 8px;
         position: relative;
+        opacity: 0;
+
+        @media (prefers-reduced-motion: no-preference) {
+            transition: opacity .5s ease;
+        }
     }
 
     &__title {

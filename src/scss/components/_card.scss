@@ -9,6 +9,11 @@
     max-width: 380px;
     box-shadow: var.$shadow;
     position: relative;
+    opacity: 0;
+
+    @media (prefers-reduced-motion: no-preference) {
+        transition: opacity .5s ease;
+    }
 
     &::before {
         content: '';

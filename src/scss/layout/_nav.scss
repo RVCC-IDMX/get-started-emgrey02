@@ -16,6 +16,7 @@
     &__comp-name {
         color: var.$accent-color;
         margin: 0 1rem;
+        font-size: 26px;
     }
 
     &__nav-container {
@@ -48,7 +49,7 @@
             border-radius: 8px;
             background-color: var.$accent-color;
             transform: translateX(0);
-            transition: transform 200ms ease-in;
+            transition: transform 500ms var(--ease-squish-1);
         }
     }
 
