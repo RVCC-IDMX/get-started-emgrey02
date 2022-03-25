@@ -12,7 +12,8 @@
         background-color: var.$card-bkgd-color;
         border-radius: 8px;
         padding: 4rem 2rem;
-        text-align: center;
+        padding-block-end: 6rem;
+        text-align: left;
         margin-inline: auto;
         box-shadow: var.$shadow;
         position: relative;
@@ -24,6 +25,7 @@
 
         &--title {
             padding-block-end: 1rem;
+            text-align: center;
 
             &::before {
                 content:'';

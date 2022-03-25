@@ -6,6 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: type.$font;
+    font-size: type.$body-font;
     line-height: type.$line-h;
 }
 
@@ -24,16 +25,17 @@ a:hover, a:focus {
 
 h1 {
     font-weight: type.$h1-wght;
-    font-size: clamp(42px, 5vw,52px);
+    font-size: type.$large-font;
 }
 
 h2 {
     font-weight: type.$h2-wght;
-    font-size: clamp(28px, 3vw, 32px);
+    font-size: type.$medium-font;
 }
 
 nav {
     font-weight: type.$nav-wght;
+    font-size: type.$nav-font;
 }
 
 *:focus {

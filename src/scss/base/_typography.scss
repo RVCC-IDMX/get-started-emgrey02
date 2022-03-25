@@ -16,5 +16,7 @@ $p-wght: 400;
 $line-h: 1.5;
 
 /* font size */
-
-
+$large-font: clamp(42px, 5vw,52px);
+$medium-font: clamp(28px, 3vw, 32px);
+$nav-font: 18px;
+$body-font: clamp(14px, 1vw, 16px);
